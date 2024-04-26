@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "http": "https://raw.githubusercontent.com/agorushkin/http-server/main/mod.ts"
+  },
+  "fmt": {
+    "singleQuote": true,
+    "semiColons": true,
+    "indentWidth": 2,
+    "useTabs": true
+  }
+}
