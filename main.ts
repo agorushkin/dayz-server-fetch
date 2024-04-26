@@ -1,8 +1,8 @@
 import { Server } from 'http';
 
 const server = new Server();
-const key = Deno.env.get('STEAM_WEB_API_KEY');
-const pass = Deno.env.get('PASS');
+const key = Deno.env.get('STEAM_WEB_API_KEY') ?? '';
+const pass = Deno.env.get('PASS') ?? '';
 
 if (!key || !pass) Deno.exit(0);
 
